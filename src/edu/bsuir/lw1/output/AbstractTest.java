@@ -6,6 +6,6 @@ public abstract class AbstractTest {
 
     public AbstractTest(int p){this.a =p;};
 
-
+//Знакомлюсь с гитом////
 
 }

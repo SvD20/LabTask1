@@ -19,5 +19,5 @@ public class DataExtractor {
         return size;
     };
 
-
+/////Знакомлюсь с гитом//////////
 }
