@@ -34,3 +34,5 @@ public class Main {
             //Работа с консолью
             /*int size = DataExtractor.getSizeFromTerminal();
               SecDemonstrator.showSequence(SecCreator.createSequence(size));*/
+
+///Хочу спать///
