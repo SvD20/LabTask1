@@ -1,4 +1,4 @@
-package edu.bsuir.lw1.pathes;
+package edu.bsuir.pathes;
 
 public enum PathToFile {
     FILE1("c:/file1.txt"),

@@ -1,10 +1,8 @@
-package edu.bsuir.secproc;
+package edu.bsuir.sequence_processing;
 
 import java.util.Random;
 
-public class SequenceCreator {
-
-    private static String SYMBOLS = "bcdfghjklmnpqrstvwxyz";
+public class SequenceCreatorImpl implements SequenceCreator {
 
     public String createSequence(int length){
         Random random=new Random();

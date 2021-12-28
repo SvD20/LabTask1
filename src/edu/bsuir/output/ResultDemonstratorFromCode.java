@@ -1,2 +1,7 @@
-package edu.bsuir.output;public interface ResultDemonstratorFromCode {
+package edu.bsuir.output;
+
+import java.io.IOException;
+
+public interface ResultDemonstratorFromCode {
+    void resultDemonstrateFromCode(String sequence) throws IOException;
 }
