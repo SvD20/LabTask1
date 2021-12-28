@@ -1,12 +1,12 @@
-package edu.bsuir.lw1.secproc;
+package edu.bsuir.sequence_processing;
 
 import java.io.*;
 import java.util.Random;
-import static edu.bsuir.lw1.pathes.PathToFile.FILE2;
+import static edu.bsuir.pathes.PathToFile.FILE2;
 
-public class FileCreator extends SecCreator{
+public class FileCreator implements SequenceCreator,WriterSequenceToFile {
 
-      public static String createSequence(int length){
+      public String createSequence(int length){
 
           if (length > 0){
               String str="bcdfghjklmnpqrstvwxyz";
@@ -19,16 +19,14 @@ public class FileCreator extends SecCreator{
               return sb.toString();
           }
           else{
-              return "В файле отрицательное число";
+              return "Рзамер последовательности отрицателен!";
           }
       }
 
-      public static void writeSecInFile(String sequence) throws IOException {
+      public  void writeSecInFile(String sequence) throws IOException {
 
           FileWriter fw = new FileWriter(FILE2.getPath());
-
           fw.write(sequence);
-
           fw.close();
 
       }

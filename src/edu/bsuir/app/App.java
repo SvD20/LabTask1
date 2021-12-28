@@ -1,16 +1,13 @@
-package edu.bsuir.lw1.main;
+package edu.bsuir.main;
 
-import edu.bsuir.lw1.input.DataExtractor;
-import edu.bsuir.lw1.input.FileExtractor;
-import edu.bsuir.lw1.output.FileDemonstrator;
-import edu.bsuir.lw1.output.SecDemonstrator;
-import edu.bsuir.lw1.secproc.FileCreator;
-import edu.bsuir.lw1.secproc.SecCreator;
+import edu.bsuir.input.FileExtractor;
+import edu.bsuir.output.FileDemonstrator;
+import edu.bsuir.sequence_processing.FileCreator;
+
 import java.io.IOException;
-import java.util.ArrayList;
 
 
-public class Main {
+public class App {
 
             public static void main(String[] args) throws IOException {
 
